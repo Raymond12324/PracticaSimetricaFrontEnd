@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Montserrat', sans-serif; color:#2a2a2a; background-color: #eff0f3;}
+
+h1,h2{
+  color: #0d0d0d;
+}
+
+
+/* Colores principales*/
+
+.background{
+  background-color: #eff0f3;
+}
+
+.primary-button{
+  background-color: #ff8e3c;
+}
+.text-button{
+  color: #0d0d0d;
+}
+
+.color-headlines{
+  color: #0d0d0d;
+}
+
+.color-p{
+  color: #2a2a2a;
+}
+
+/* /// secundarios */
+.stroke{
+  color: #0d0d0d;
+}
+
+.main{
+  color: #eff0f3;
+}
+
+.color-secundario{
+  color: #fffffe;
+}
+
+.color-terciario{
+  color: #d9376e;
+}
+
+.color-resaltado{
+  color: #ff8e3c;
+}
